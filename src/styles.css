@@ -1,1 +1,81 @@
-/* You can add global styles to this file, and also import other style files */
+
+html,body{
+    height: 100%;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+#logo{
+    width: 50px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-container{
+    padding-top: 6rem;
+}
+
+.content-wrapper{
+    width: calc(100% - 2rem);
+    max-width: 1200px;
+}
+
+.content-mid-wrapper{
+    width: calc(100% - 2rem);
+    max-width: 1100px;
+}
+
+/* welcome */
+.welcome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+
+.welcome-container{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.welcome-text-container{
+    height: 300px;
+}
+
+.welcome-title{
+    font-size: 60px;
+    margin-bottom: 3rem;
+}
+
+.welcome-foto{
+    border-radius: 50%;
+    width: 350px; 
+    height: 350px;
+}
+
+/* Fin welcome */
+
+/* Tecnologias */
+.technology{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+
+.technology-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* fin tecnologias */
+
+/* proyectos */
