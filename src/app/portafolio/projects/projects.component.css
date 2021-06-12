@@ -1,0 +1,39 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-bottom: 6rem;
+    border: 1px solid white;
+}
+
+
+.projects-content-img{
+    width: 500px;
+    height: 400px;
+}
+
+.projects-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+
+.projects-button-content{
+    margin-top: 1rem;
+}
+
+.projects-btn{
+  margin: 0 .8rem;
+  width: 100px;
+}
+
+.projects-btn:first-of-type{
+    margin-left: 0;
+}

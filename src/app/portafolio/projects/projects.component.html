@@ -1,0 +1,20 @@
+<div class="projects-container content-wrapper">
+        <h2 class="projects-title title">Proyectos</h2>
+        <div *ngFor="let project of projects" class="projects-content">
+          <figure class="figure">
+            <img src={{project.img}} class="projects-content-img" alt="...">
+          </figure>
+        
+          <div class="projects-text-content">
+            <h3>{{project.subtitle}}</h3>
+            <p>{{project.description}}</p>
+            <p><strong>{{project.development}}</strong></p>
+            <div class="projects-button-content">
+              <button type="button" class="btn btn-light projects-btn">DEMO</button>
+              <button type="button" class="btn btn-light projects-btn">GITHUB</button>
+            </div>
+          </div>
+        </div>
+        
+</div>
+

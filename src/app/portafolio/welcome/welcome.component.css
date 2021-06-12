@@ -1,0 +1,22 @@
+.welcome-container{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.welcome-text-container{
+    height: 300px;
+}
+
+.welcome-title{
+    font-size: 60px;
+    margin-bottom: 3rem;
+}
+
+.welcome-foto{
+    border-radius: 50%;
+    width: 350px; 
+    height: 350px;
+}

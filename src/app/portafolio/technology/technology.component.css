@@ -1,0 +1,16 @@
+.technology-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.technology-card{
+    width: 8.5rem;
+}
+
+.technology-card-img{
+    margin-bottom: .5rem;
+}
+
+.technology-card-text{
+    text-align: center;
+}
