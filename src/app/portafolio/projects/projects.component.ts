@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { Project } from './interface/projects.interface';
+import { PortafolioService } from '../service/portafolio.service';
+
+
 
 @Component({
   selector: 'app-projects',
@@ -8,12 +10,8 @@ import { Project } from './interface/projects.interface';
 })
 export class ProjectsComponent{
 
-projects: Project[]=[
-  {
-    subtitle: 'proyecto',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsam totam blanditiis cum exercitationem recusandae et eligendi assumenda doloribus obcaecati excepturi sapiente explicabo nobis commodi, qui architecto atque voluptate expedita.',
-    development: 'desarrollado en...',
-    img: 'assets/fotoWelcome.jpg'
-}
-]
+  get projects(){
+    return this.portafolioService.projects
+  }
+  constructor(private portafolioService: PortafolioService){}
 }

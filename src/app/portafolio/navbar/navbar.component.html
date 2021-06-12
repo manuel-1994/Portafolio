@@ -1,17 +1,8 @@
 <div class="container-fluid">
     <img src="/assets/Grupo 3.svg" alt="logo" class="nav-logo">
     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#technology">Tecnologías</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">Proyectos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">Sobre mi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contactame</a>
+      <li *ngFor="let data of menuList" class="nav-item">
+        <a class="nav-link" href={{data.id}}>{{data.name}}</a>
       </li>
     </ul>
 </div>
