@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { PortafolioModule } from './portafolio/portafolio.module';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -10,7 +11,8 @@ import { PortafolioModule } from './portafolio/portafolio.module';
   ],
   imports: [
     BrowserModule,
-    PortafolioModule
+    PortafolioModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

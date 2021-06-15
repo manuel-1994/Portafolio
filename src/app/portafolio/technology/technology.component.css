@@ -1,6 +1,8 @@
 .technology-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6rem;
 }
 
 .technology-card{
@@ -9,6 +11,10 @@
 
 .technology-card-img{
     margin-bottom: .5rem;
+}
+
+.technology-foto{
+    width: 128px;
 }
 
 .technology-card-text{

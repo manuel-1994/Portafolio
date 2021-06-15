@@ -3,14 +3,20 @@
       <h2 class="contact-title">¿Deseas contactarme?
         <br>
         escribribeme a
-        <a class="contact-info" href="mailto:Manuelmarin1994@gmail.com">Manuelmarin1994@gmail.com</a>
+        <a class="contact-info" href="mailto:Manuelmarin1994@gmail.com" target="_blank">Manuelmarin1994@gmail.com</a>
       </h2> 
     </div>
     <div class="contact-subtitle-container">
-      <h3>con gusto te leeré</h3>
+      <h3>con gusto te leeré.</h3>
       <h3 class="contact-subtitle">Tambien puedes encontrarme en
-        <br>
-        <a class="contact-info" href="#">Linkedin</a> o <a class="contact-info" href="#">Github</a>
+        <div class="contact-info-container">
+          <a *ngFor="let data of contact" 
+          class="contact-info" 
+          target="_blank"
+          [href]="data.url">{{data.socialName}}</a>
+
+        </div>
       </h3>
     </div> 
 </div>
+

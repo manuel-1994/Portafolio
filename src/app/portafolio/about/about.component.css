@@ -1,6 +1,13 @@
 .about-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.about-description-text{
+  width: 700px;
+  margin-top: 1rem;
 }
 
 .about-foto{

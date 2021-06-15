@@ -9,10 +9,21 @@
 .contact-title{
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+.contact-subtitle{
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-info{
+    text-decoration: none;
     color: #212529;
+    margin: 1rem .5rem; 
+}
+
+.contact-info-container{
+    margin-top: 1rem;
 }
 
 .contact-info:hover{

@@ -1,5 +1,5 @@
 import { Component} from '@angular/core';
-import { PortafolioService } from '../service/portafolio.service';
+import { SharedService } from '../service/shared.service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +9,7 @@ import { PortafolioService } from '../service/portafolio.service';
 export class NavbarComponent {
 
   get menuList(){
-    return this.portafoliService.menuList
+    return this.sharedService.menuList
   }
-  constructor(private portafoliService: PortafolioService){}
+  constructor(private sharedService: SharedService){}
 }

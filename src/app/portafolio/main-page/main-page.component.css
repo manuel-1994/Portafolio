@@ -2,18 +2,8 @@
     height: 700px;
 }
 
-.technology{  
-    height: 600px;
-}
-
 .projects{
     display: flex;
     height: auto;
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-}

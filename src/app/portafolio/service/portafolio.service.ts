@@ -1,29 +1,11 @@
 import { Injectable } from '@angular/core';
-import { Menu, Project, Technology } from '../interface/portafolio.interface';
+import { Project, Technology, Contact } from '../interface/portafolio.interface';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PortafolioService {
 
-  private _menuList: Menu[] =[
-    {
-      name: 'Tecnologías',
-      id: '#technology'
-    },
-    {
-      name: 'Proyectos',
-      id: '#projects'
-    },
-    {
-      name: 'Sobre mi',
-      id: '#about'
-    },
-    {
-      name: 'Contactame',
-      id: '#contact'
-    },
-  ]
  
   private _technologyList: Technology[]=[
     {
@@ -59,7 +41,7 @@ export class PortafolioService {
       img: '/assets/firebase.svg'
     }
   ]
-
+  
   private _projects: Project[]=[
     {
       subtitle: 'proyecto',
@@ -69,10 +51,17 @@ export class PortafolioService {
   }
   ]
 
+  private _contact: Contact[]=[
+    {
+      socialName: 'Linkedin',
+      url: 'https://www.linkedin.com/in/manuel-marin-70519116a'
+    },
+    {
+      socialName: 'GitHub',
+      url: 'https://github.com/manuel-1994'
+    },
 
-  get menuList(): Menu[]{
-    return [...this._menuList]
-  }
+  ]
 
   get technologyList(): Technology[]{
     return [...this._technologyList]
@@ -80,6 +69,10 @@ export class PortafolioService {
 
   get projects(): Project[]{
     return [...this._projects]
+  }
+
+  get contact(): Contact[]{
+    return [...this._contact]
   }
   
 }
