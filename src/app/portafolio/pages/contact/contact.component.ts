@@ -1,5 +1,5 @@
 import { Component} from '@angular/core';
-import { PortafolioService } from '../service/portafolio.service';
+import { PortafolioService } from '../../services/portafolio.service';
 
 @Component({
   selector: 'app-contact',

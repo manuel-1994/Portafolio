@@ -9,13 +9,22 @@
     justify-content: space-between;
     width: 1100px;
     margin-bottom: 6rem;
-    border: 1px solid white;
+    border: 1px solid black;
+}
+
+.figure {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    border-right: 1px solid black;
 }
 
 
 .projects-content-img{
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
 }
 
 .projects-text-content{
@@ -23,6 +32,7 @@
     flex-direction: column;
     justify-content: center;
     width: 500px;
+    padding-right: 4rem;
 }
 
 .projects-button-content{

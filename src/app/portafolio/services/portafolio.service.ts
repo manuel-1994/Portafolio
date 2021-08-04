@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Project, Technology, Contact } from '../interface/portafolio.interface';
+import { Project, Technology, Contact } from '../interfaces/portafolio.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -21,12 +21,8 @@ export class PortafolioService {
       img: '/assets/javascript.svg'
     },
     {
-      name: 'ANGULAR',
-      img: '/assets/angular.svg'
-    },
-    {
-      name: 'VUE',
-      img: '/assets/vuejs.svg'
+      name: 'REACT',
+      img: '/assets/react.svg'
     },
     {
       name: 'GIT',
@@ -44,10 +40,12 @@ export class PortafolioService {
   
   private _projects: Project[]=[
     {
-      subtitle: 'proyecto',
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsam totam blanditiis cum exercitationem recusandae et eligendi assumenda doloribus obcaecati excepturi sapiente explicabo nobis commodi, qui architecto atque voluptate expedita.',
-      development: 'desarrollado en...',
-      img: 'assets/fotoWelcome.jpg'
+      subtitle: 'DebtsApp',
+      description: 'Aplicación de deudas (Aun en desarrollo)',
+      development: 'Desarrollado en html, css y javaScript (proximamente en react o Angular)',
+      githubUrl: 'https://github.com/manuel-1994/DebtsApp-Js',
+      demoUrl: 'https://github.com/manuel-1994/DebtsApp-Js',
+      img: 'assets/debtsApp.png'
   }
   ]
 
