@@ -10,31 +10,31 @@ export class PortafolioService {
   private _technologyList: Technology[]=[
     {
       name: 'HTML',
-      img: '/assets/html5.svg'
+      img: 'assets/html5.svg'
     },
     {
       name: 'CSS',
-      img: '/assets/css3.svg'
+      img: 'assets/css3.svg'
     },
     {
       name: 'JAVASCRIPT',
-      img: '/assets/javascript.svg'
+      img: 'assets/javascript.svg'
     },
     {
       name: 'REACT',
-      img: '/assets/react.svg'
+      img: 'assets/react.svg'
     },
     {
       name: 'GIT',
-      img: '/assets/git.svg'
+      img: 'assets/git.svg'
     },
     {
       name: 'GITHUB',
-      img: '/assets/github.svg'
+      img: 'assets/github.svg'
     },
     {
       name: 'FIREBASE',
-      img: '/assets/firebase.svg'
+      img: 'assets/firebase.svg'
     }
   ]
   
